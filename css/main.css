@@ -213,4 +213,9 @@ body .container .table-head {
   background-color: #DC9212;
   color: white;
 }
+
+html .container .btn,
+body .container .btn {
+  background-color: #DC9212;
+}
 /*# sourceMappingURL=main.css.map */
