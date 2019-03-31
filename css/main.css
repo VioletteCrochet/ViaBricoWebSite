@@ -10,7 +10,7 @@ html nav,
 body nav {
   width: 100%;
   height: 1.6vh;
-  background-color: #398c32;
+  background-color: #DC9212;
 }
 
 html .content,
@@ -79,7 +79,7 @@ body .content .con-form input:hover {
 
 html .content .con-form input:focus,
 body .content .con-form input:focus {
-  border: 2px solid #6BAF16;
+  border: 2px solid #DC9212;
 }
 
 html .content .con-form input::-webkit-input-placeholder,
@@ -106,7 +106,7 @@ html .content .con-form #submit,
 body .content .con-form #submit {
   width: 97%;
   padding: 13px;
-  background-color: #6BAF16;
+  background-color: #DC9212;
   border: none;
   border-radius: 2px;
   color: white;
@@ -116,7 +116,7 @@ body .content .con-form #submit {
 
 html .content .con-form #submit:hover,
 body .content .con-form #submit:hover {
-  background-color: #42A33A;
+  background-color: #DC9212;
   cursor: pointer;
 }
 
@@ -124,7 +124,7 @@ html .content .con-form #submit-false,
 body .content .con-form #submit-false {
   width: 97%;
   padding: 13px;
-  background-color: #2cfc3b;
+  background-color: #DC9212;
   border: none;
   border-radius: 2px;
   color: white;
@@ -134,7 +134,7 @@ body .content .con-form #submit-false {
 
 html .content .con-form #submit-false:hover,
 body .content .con-form #submit-false:hover {
-  background-color: #42A33A;
+  background-color: #DC9212;
   cursor: pointer;
 }
 
@@ -142,7 +142,7 @@ html .content .con-form #disconnect,
 body .content .con-form #disconnect {
   width: 97%;
   padding: 13px;
-  background-color: #6BAF16;
+  background-color: #DC9212;
   border: none;
   border-radius: 2px;
   color: white;
@@ -153,7 +153,7 @@ body .content .con-form #disconnect {
 
 html .content .con-form #disconnect:hover,
 body .content .con-form #disconnect:hover {
-  background-color: #42A33A;
+  background-color: #DC9212;
   cursor: pointer;
 }
 
@@ -166,7 +166,7 @@ body .content .con-mdp {
 
 html .content .con-mdp .blue,
 body .content .con-mdp .blue {
-  color: #6BAF16;
+  color: #DC9212;
 }
 
 html footer,
@@ -217,5 +217,11 @@ body .container .table-head {
 html .container .btn,
 body .container .btn {
   background-color: #DC9212;
+}
+
+html .header-fiche,
+body .header-fiche {
+  background-color: #DC9212;
+  color: white;
 }
 /*# sourceMappingURL=main.css.map */
