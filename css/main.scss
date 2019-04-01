@@ -208,8 +208,25 @@ body {
                 color: rgba(122, 122, 122, 0.836);
             }
 
-            .desc {
+            #description {
                 padding-bottom: 100px;
+                border: none;
+                border-bottom: 1px solid #191919;
+                outline: none;
+                margin-left: 18px;
+            }
+
+            #description:hover{
+                border-bottom: 1px solid #DC9212;
+            }
+
+            #description:focus{
+                border-bottom: 1.5px solid #DC9212;
+            }
+
+            #description::placeholder{
+                color: rgba(122, 122, 122, 0.836);
+                font-size: 1.2rem;
             }
 
             //BUTTONS

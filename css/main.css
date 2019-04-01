@@ -257,9 +257,47 @@ body .ajouter-container .form input::placeholder {
   color: rgba(122, 122, 122, 0.836);
 }
 
-html .ajouter-container .form .desc,
-body .ajouter-container .form .desc {
+html .ajouter-container .form #description,
+body .ajouter-container .form #description {
   padding-bottom: 100px;
+  border: none;
+  border-bottom: 1px solid #191919;
+  outline: none;
+  margin-left: 18px;
+}
+
+html .ajouter-container .form #description:hover,
+body .ajouter-container .form #description:hover {
+  border-bottom: 1px solid #DC9212;
+}
+
+html .ajouter-container .form #description:focus,
+body .ajouter-container .form #description:focus {
+  border-bottom: 1.5px solid #DC9212;
+}
+
+html .ajouter-container .form #description::-webkit-input-placeholder,
+body .ajouter-container .form #description::-webkit-input-placeholder {
+  color: rgba(122, 122, 122, 0.836);
+  font-size: 1.2rem;
+}
+
+html .ajouter-container .form #description:-ms-input-placeholder,
+body .ajouter-container .form #description:-ms-input-placeholder {
+  color: rgba(122, 122, 122, 0.836);
+  font-size: 1.2rem;
+}
+
+html .ajouter-container .form #description::-ms-input-placeholder,
+body .ajouter-container .form #description::-ms-input-placeholder {
+  color: rgba(122, 122, 122, 0.836);
+  font-size: 1.2rem;
+}
+
+html .ajouter-container .form #description::placeholder,
+body .ajouter-container .form #description::placeholder {
+  color: rgba(122, 122, 122, 0.836);
+  font-size: 1.2rem;
 }
 
 html .ajouter-container .form .buttons,
