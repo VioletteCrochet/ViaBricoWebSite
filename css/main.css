@@ -116,44 +116,7 @@ body .content .con-form #submit {
 
 html .content .con-form #submit:hover,
 body .content .con-form #submit:hover {
-  background-color: #DC9212;
-  cursor: pointer;
-}
-
-html .content .con-form #submit-false,
-body .content .con-form #submit-false {
-  width: 97%;
-  padding: 13px;
-  background-color: #DC9212;
-  border: none;
-  border-radius: 2px;
-  color: white;
-  font-family: 'Raleway', sans-serif;
-  font-size: 1rem;
-}
-
-html .content .con-form #submit-false:hover,
-body .content .con-form #submit-false:hover {
-  background-color: #DC9212;
-  cursor: pointer;
-}
-
-html .content .con-form #disconnect,
-body .content .con-form #disconnect {
-  width: 97%;
-  padding: 13px;
-  background-color: #DC9212;
-  border: none;
-  border-radius: 2px;
-  color: white;
-  font-family: 'Raleway', sans-serif;
-  font-size: 1rem;
-  margin-top: 100px;
-}
-
-html .content .con-form #disconnect:hover,
-body .content .con-form #disconnect:hover {
-  background-color: #DC9212;
+  background-color: #c08012;
   cursor: pointer;
 }
 
@@ -164,9 +127,11 @@ body .content .con-mdp {
   padding: 1%;
 }
 
-html .content .con-mdp .blue,
-body .content .con-mdp .blue {
+html .content .con-mdp .mdp,
+body .content .con-mdp .mdp {
   color: #DC9212;
+  -webkit-text-decoration: underline white;
+          text-decoration: underline white;
 }
 
 html footer,
@@ -202,7 +167,8 @@ body footer .footer-pos p {
   margin-top: 25px;
 }
 
-html .container h1, html .container h2,
+html .container h1,
+html .container h2,
 body .container h1,
 body .container h2 {
   text-align: center;
@@ -223,5 +189,124 @@ html .header-fiche,
 body .header-fiche {
   background-color: #DC9212;
   color: white;
+}
+
+html .ajouter-container h1,
+body .ajouter-container h1 {
+  text-align: center;
+  padding: 40px 0px 30px 0px;
+}
+
+html .ajouter-container .form,
+body .ajouter-container .form {
+  height: 38%;
+  text-align: center;
+  padding: 0px 30px 0px 30px;
+  width: 60%;
+  margin: 0 auto;
+}
+
+html .ajouter-container .form form,
+body .ajouter-container .form form {
+  width: 100%;
+  height: 100%;
+}
+
+html .ajouter-container .form .inputbasic,
+body .ajouter-container .form .inputbasic {
+  width: 90%;
+  padding: 12px;
+  border: none;
+  border-bottom: solid #191919 1px;
+  background-color: white;
+  outline: none;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  font-size: 1.2rem;
+  font-family: 'Raleway', sans-serif;
+  color: black;
+}
+
+html .ajouter-container .form input:hover,
+body .ajouter-container .form input:hover {
+  border-bottom: 1px solid #DC9212;
+}
+
+html .ajouter-container .form input:focus,
+body .ajouter-container .form input:focus {
+  border-bottom: 1.5px solid #DC9212;
+}
+
+html .ajouter-container .form input::-webkit-input-placeholder,
+body .ajouter-container .form input::-webkit-input-placeholder {
+  color: rgba(122, 122, 122, 0.836);
+}
+
+html .ajouter-container .form input:-ms-input-placeholder,
+body .ajouter-container .form input:-ms-input-placeholder {
+  color: rgba(122, 122, 122, 0.836);
+}
+
+html .ajouter-container .form input::-ms-input-placeholder,
+body .ajouter-container .form input::-ms-input-placeholder {
+  color: rgba(122, 122, 122, 0.836);
+}
+
+html .ajouter-container .form input::placeholder,
+body .ajouter-container .form input::placeholder {
+  color: rgba(122, 122, 122, 0.836);
+}
+
+html .ajouter-container .form .desc,
+body .ajouter-container .form .desc {
+  padding-bottom: 100px;
+}
+
+html .ajouter-container .form .buttons,
+body .ajouter-container .form .buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 10px;
+}
+
+html .ajouter-container .form .buttons #submit,
+body .ajouter-container .form .buttons #submit {
+  width: 100px;
+  padding: 13px;
+  background-color: #DC9212;
+  border: none;
+  border-radius: 15px;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1rem;
+}
+
+html .ajouter-container .form .buttons #submit:hover,
+body .ajouter-container .form .buttons #submit:hover {
+  background-color: #c08012;
+  cursor: pointer;
+}
+
+html .ajouter-container .form .buttons #return,
+body .ajouter-container .form .buttons #return {
+  width: 100px;
+  padding: 13px;
+  background-color: #DC9212;
+  border: none;
+  border-radius: 15px;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1rem;
+}
+
+html .ajouter-container .form .buttons #return:hover,
+body .ajouter-container .form .buttons #return:hover {
+  background-color: #c08012;
+  cursor: pointer;
 }
 /*# sourceMappingURL=main.css.map */
