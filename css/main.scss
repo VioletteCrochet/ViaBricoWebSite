@@ -141,7 +141,9 @@ body {
             text-align: center
         }
 
-        h2 {}
+        h2 {
+            margin-bottom: 70px;
+        }
 
         .table-head {
             background-color: #DC9212;
@@ -150,15 +152,30 @@ body {
 
         .btn {
             background-color: #DC9212;
+            border: none;
         }
     }
 
 
     //FICHEDETAILLEE.HTML
 
-    .header-fiche {
-        background-color: #DC9212;
-        color: white;
+    .fournisseur-page{
+        h1{
+            padding: 20px;
+        }
+        .card{
+            margin-bottom: 40px;
+            .header-fiche {
+                background-color: #DC9212;
+                color: white;
+            }
+        }
+        .btn {
+            background-color: #DC9212;
+            border: none;
+            color: white;
+            margin-bottom: 20px;
+        }
     }
 
     //AJOUTER.HTML
@@ -179,6 +196,11 @@ body {
             form {
                 width: 100%;
                 height: 100%;
+                .btn {
+                    background-color: #DC9212;
+                    border: none;
+                    color: white;
+                }
             }
 
             //INPUTS
