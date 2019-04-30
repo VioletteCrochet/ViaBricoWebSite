@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="js/main.js">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
@@ -17,44 +18,50 @@
     <script src="main.js"></script>
 </head>
 
+<!-- BODY -->
+
 <body>
+    <!-- CONTAINER -->
+
     <div class="ajouter-container ajouter-page">
         <h1>Ajouter un fournisseur</h1>
+
+        <!-- FORM -->
         <div class="form">
-            <input type="text" id="name" name="nmea" placeholder="Nom du fournisseur" class="inputbasic" maxlength="30"
-                required><br>
+            <form method="post" action="fournisseurs.html">
+                <input type="text" id="name" name="name" placeholder="Nom du fournisseur" class="inputbasic"
+                    maxlength="30" required><br>
 
-            <input type="text" id="address" name="address" placeholder="Adresse" class="inputbasic" maxlength="50"
-                required><br>
+                <input type="text" id="address" name="address" placeholder="Adresse" class="inputbasic" maxlength="50"
+                    required><br>
 
-            <input type="tel" id="phone" name="phone" placeholder="Téléphone" class="inputbasic" maxlength="10"
-                required><br>
+                <input type="tel" id="phone" name="phone" placeholder="Téléphone" class="inputbasic" maxlength="10"
+                    required><br>
 
-            <input type="text" id="description" name="description" placeholder="Description" class="inputbasic desc"
-                maxlength="250" required><br>
+                <textarea id="description" rows="3" cols="94" maxlength="250" placeholder="Description"></textarea>
+                <br>
 
-            <div class="buttons">
-                <button id="return">Retour</button>
-                <input type="submit" id="submit" name="submit" value="Ajouter" />
-            </div>
-
+                <div class="buttons">
+                    <input type="button" value="Retour" class="btn" onClick="history.back()">
+                    <input type="submit" class="btn" name="submit" value="Ajouter" />
+            </form>
         </div>
+        <!-- END-FORM -->
+    </div>
 
+    <!-- END-CONTAINER -->
 
-
-
-
-
-
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-            crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-            crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-            crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 </body>
+
+<!-- END-BODY -->
 
 </html>

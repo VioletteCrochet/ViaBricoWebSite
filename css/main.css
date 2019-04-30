@@ -174,6 +174,11 @@ body .container h2 {
   text-align: center;
 }
 
+html .container h2,
+body .container h2 {
+  margin-bottom: 70px;
+}
+
 html .container .table-head,
 body .container .table-head {
   background-color: #DC9212;
@@ -183,12 +188,31 @@ body .container .table-head {
 html .container .btn,
 body .container .btn {
   background-color: #DC9212;
+  border: none;
 }
 
-html .header-fiche,
-body .header-fiche {
+html .fournisseur-page h1,
+body .fournisseur-page h1 {
+  padding: 20px;
+}
+
+html .fournisseur-page .card,
+body .fournisseur-page .card {
+  margin-bottom: 40px;
+}
+
+html .fournisseur-page .card .header-fiche,
+body .fournisseur-page .card .header-fiche {
   background-color: #DC9212;
   color: white;
+}
+
+html .fournisseur-page .btn,
+body .fournisseur-page .btn {
+  background-color: #DC9212;
+  border: none;
+  color: white;
+  margin-bottom: 20px;
 }
 
 html .ajouter-container h1,
@@ -210,6 +234,13 @@ html .ajouter-container .form form,
 body .ajouter-container .form form {
   width: 100%;
   height: 100%;
+}
+
+html .ajouter-container .form form .btn,
+body .ajouter-container .form form .btn {
+  background-color: #DC9212;
+  border: none;
+  color: white;
 }
 
 html .ajouter-container .form .inputbasic,
@@ -257,9 +288,47 @@ body .ajouter-container .form input::placeholder {
   color: rgba(122, 122, 122, 0.836);
 }
 
-html .ajouter-container .form .desc,
-body .ajouter-container .form .desc {
+html .ajouter-container .form #description,
+body .ajouter-container .form #description {
   padding-bottom: 100px;
+  border: none;
+  border-bottom: 1px solid #191919;
+  outline: none;
+  margin-left: 18px;
+}
+
+html .ajouter-container .form #description:hover,
+body .ajouter-container .form #description:hover {
+  border-bottom: 1px solid #DC9212;
+}
+
+html .ajouter-container .form #description:focus,
+body .ajouter-container .form #description:focus {
+  border-bottom: 1.5px solid #DC9212;
+}
+
+html .ajouter-container .form #description::-webkit-input-placeholder,
+body .ajouter-container .form #description::-webkit-input-placeholder {
+  color: rgba(122, 122, 122, 0.836);
+  font-size: 1.2rem;
+}
+
+html .ajouter-container .form #description:-ms-input-placeholder,
+body .ajouter-container .form #description:-ms-input-placeholder {
+  color: rgba(122, 122, 122, 0.836);
+  font-size: 1.2rem;
+}
+
+html .ajouter-container .form #description::-ms-input-placeholder,
+body .ajouter-container .form #description::-ms-input-placeholder {
+  color: rgba(122, 122, 122, 0.836);
+  font-size: 1.2rem;
+}
+
+html .ajouter-container .form #description::placeholder,
+body .ajouter-container .form #description::placeholder {
+  color: rgba(122, 122, 122, 0.836);
+  font-size: 1.2rem;
 }
 
 html .ajouter-container .form .buttons,
