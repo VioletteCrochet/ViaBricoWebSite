@@ -15,7 +15,11 @@ app.get('/fiche-détaillée', (req, res) => {
 });
 
 app.get('/liste-des-fournisseurs', (req, res) => {
-    res.sendFile(dirname + '/fichedetaillee.html')
+    res.sendFile(dirname + '/fournisseurs.html')
 });
+
+// app.post('/connexion', (req, res) => {
+//     res.
+// });
 
 module.exports = { app };
