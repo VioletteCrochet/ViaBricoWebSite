@@ -15,4 +15,6 @@ const postUser = () => {
     });
 };
 
-module.exports = postUser;
+module.exports = {
+    postUser
+};

@@ -1,7 +1,7 @@
 const express = require('express');
-const {argv} = require('yargs');
+const { argv } = require('yargs');
 const http = require('http');
-const { app } = require('./routes.js');
+const { app } = require('../routes.js');
 const apiRequest = require('./apiRequest.js');
 
 const inputPort = argv._[0]
