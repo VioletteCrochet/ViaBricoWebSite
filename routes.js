@@ -1,7 +1,9 @@
 const express = require('express');
 
+
 const app = express();
 
+//NAVIGATION METHODS
 app.get('/ajouter', (req, res) => {
     res.sendFile(__dirname + '/ajouter.html')
 });
@@ -30,10 +32,8 @@ app.post('/connexion', (req, res) => {
 
 });
 
+//API METHODS
 
 
-// app.post('/connexion', (req, res) => {
-//     res.
-// });
 
 module.exports = { app };
