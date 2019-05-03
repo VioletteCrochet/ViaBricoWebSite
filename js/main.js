@@ -20,13 +20,11 @@ app.listen(defaultPort, () => {
 const urlencodedParser = bodyParser.urlencoded({ extended: false })
 
 
-
 app.post('/api/fournisseur', urlencodedParser, function (req, res) {
     postFournisseur
     console.log(req.body);
     res.sendFile(__dirname + '/fournisseurs.html')
 })
-
 
 // app.use(express.static(__dirname + '/assets'));
 
