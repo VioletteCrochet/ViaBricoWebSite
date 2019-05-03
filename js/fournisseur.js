@@ -10,12 +10,9 @@ function preload(){
             var texte2 = document.createTextNode("Description : "+json[iter].description);
             var texte3 = document.createTextNode("Adresse : "+json[iter].adresse);
             var texte4 = document.createTextNode("Téléphone : "+json[iter].telephone);
-            var texte5 = document.createTextNode("Modifier");
-            var texte6 = document.createTextNode("Supprimer");
-
             // Création de la structure
             var balise0 = document.createElement("tr");
-            balise0.className = "table table-hover";
+            balise0.className = "table-warning";
             var balise1 = document.createElement("th");
             balise1.scope = "row";
             var balise2 = document.createElement("td");
@@ -23,12 +20,6 @@ function preload(){
             var balise4 = document.createElement("td");
             var balise5 = document.createElement("td");
             var balise6 = document.createElement("td");
-            var balise7 = document.createElement("button");
-            balise7.type = button;
-            balise7.className = "btn btn-warning";
-            var balise8 = document.createElement("button");
-            balise7.type = button;
-            balise8.className = "btn btn-warning";
 
             // Affilitation des variables texte aux balises
 
@@ -45,9 +36,6 @@ function preload(){
             balise0.appendChild(balise3);
             balise0.appendChild(balise4);
             balise0.appendChild(balise5);
-            balise0.appendChild(balise6);
-            balise6.appendChild(balise7);
-            balise6.appendChild(balise8);
 
             var run = document.getElementsByClassName("tbody");
             run.appendChild(balise0);

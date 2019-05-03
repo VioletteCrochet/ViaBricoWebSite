@@ -5,8 +5,6 @@ const { app } = require('../routes.js');
 const { postFournisseur, postUser } = require('./apiRequest.js');
 const bodyParser = require('body-parser')
 
-
-
 const inputPort = argv._[0]
 const defaultPort = (inputPort && !isNaN(inputPort) && (inputPort > 0 && inputPort % 1 === 0)) ? inputPort : 3000;
 
@@ -22,7 +20,7 @@ const urlencodedParser = bodyParser.urlencoded({ extended: false })
 
 
 app.post('/api/fournisseur', urlencodedParser, function (req, res) {
-    postFournisseur
+    postFournisseur;
     console.log(req.body);
     res.sendFile(__dirname + '/fournisseurs.html')
 })
