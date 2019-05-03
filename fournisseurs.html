@@ -30,6 +30,8 @@
 
         </tr>
       </thead>
+
+      <!-- FOURNISSEURS LIST -->
       <tbody>
         <tr>
           <th scope="row">1</th>
@@ -73,79 +75,83 @@
           <td><i class="fas fa-eye"></i> <i class="fas fa-trash-alt"> </i></td>
         </tr>
       </tbody>
+      <!-- END-FOURNISSEURS LIST -->
     </table>
 
-    <div class="buttons"style="display:flex; justify-content:space-between;">
+    <div class="buttons" style="display:flex; justify-content:space-between;">
       <form method="GET" action="ajouter.html">
         <input type="submit" class="btn btn-primary" id="ajouter" name="ajouter" value="Ajouter" />
 
       </form>
 
-      <!-- Button trigger modal -->
+      <!-- BUTTON TRIGGER MODAL -->
       <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
         Modifier
       </button>
+      <!-- END-BUTTON TRIGGER MODAL -->
 
-      <!-- Modal -->
+      <!-- MODAL -->
       <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
         <div class="modal-dialog" role="document">
           <div class="modal-content">
             <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Modifier</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <h5 class="modal-title" id="exampleModalLabel">Modifier</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
-            </button>
+              </button>
             </div>
             <div class="modal-body">
-            <form method="PUT">
+              <form method="PUT">
                 <div class="form-group">
-                <label for="exampleFormControlTextarea1">Description</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                </div>
-
-
-                <div class="form-group">
-                <label for="exampleFormControlInput1">Adresse</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Adresse">
+                  <label for="exampleFormControlTextarea1">Description</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                 </div>
 
                 <div class="form-group">
-                <label for="exampleFormControlInput1">Téléphone</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Téléphone">
+                  <label for="exampleFormControlInput1">Adresse</label>
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Adresse">
                 </div>
 
                 <div class="form-group">
-                <label for="exampleFormControlInput1">Mail</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Mail">
+                  <label for="exampleFormControlInput1">Téléphone</label>
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Téléphone">
                 </div>
 
-            </form>
+                <div class="form-group">
+                  <label for="exampleFormControlInput1">Mail</label>
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Mail">
+                </div>
+
+              </form>
             </div>
+            <!-- BUTTONS MODAL -->
             <div class="modal-footer" style="justify-content:space-between">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
-            <button type="button" class="btn btn-primary">Enregistrer</button>
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+              <button type="button" class="btn btn-primary">Enregistrer</button>
             </div>
+            <!-- END-BUTTONS MODAL -->
+          </div>
         </div>
-        </div>
+        <!-- END-SCRIPTS IMPORTATION -->
+      </div>
     </div>
 
-    </div>
+  </div>
 
-</div>
-
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  <!-- SCRIPTS IMPORTATION -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
     integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
     crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
 
-    <script src="js/main.js"></script>
-
+  <script src="js/main.js"></script>
+  <!-- END-SCRIPTS IMPORTATION -->
 </body>
 
 </html>
