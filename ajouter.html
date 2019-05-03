@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Liste des fournisseurs</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -25,17 +25,19 @@
 
         <!-- FORM -->
         <div class="form">
-            <form method="post" action="fournisseurs.html">
+            <form method="GET" action="/fournisseurs" onSubmit="postFournisseur">
                 <input type="text" id="name" name="name" placeholder="Nom du fournisseur" class="inputbasic"
                     maxlength="30" required><br>
 
                 <input type="text" id="address" name="address" placeholder="Adresse" class="inputbasic" maxlength="50"
                     required><br>
 
-                <input type="tel" id="phone" name="phone" placeholder="Téléphone" class="inputbasic" maxlength="10"
+                <input type="text" id="telephone" name="telephone" placeholder="Téléphone" class="inputbasic" maxlength="10"
                     required><br>
-
-                <textarea id="description" rows="3" cols="94" maxlength="250" placeholder="Description"></textarea>
+                    <input type="text" id="mail" name="mail" placeholder="mail" class="inputbasic" maxlength="10"
+                    required><br>
+                
+                <input id="description" name="description" rows="3" cols="94" maxlength="250" placeholder="Description"></input>
                 <br>
 
                 <div class="buttons">
